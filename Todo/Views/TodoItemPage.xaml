@@ -5,6 +5,7 @@
         <Entry Text="{Binding Name}" />
         <Label Text="Notes" />
         <Entry Text="{Binding Notes}" />
+        <Label Text="Javier"/>
         <Label Text="Done" />
         <Switch IsToggled="{Binding Done}" />
         <Button Text="Save" Clicked="OnSaveClicked" />
